@@ -288,7 +288,7 @@ async function findNextValidator(validator) {
 async function registerName(signer) {
 
     const shortName = uniqueNamesGenerator({
-        dictionaries: [adjectives, animals, colors], // colors can be omitted here as not used
+        dictionaries: [adjectives, animals, colors],
         length: 2,
         separator: "",
         style: 'capital'
