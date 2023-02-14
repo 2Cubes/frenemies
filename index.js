@@ -299,7 +299,7 @@ async function registerName(signer) {
         module: 'frenemies',
         function: 'register',
         typeArguments: [],
-        arguments: [shortName + 1900 + getRandomInt(120), "0xef151701ff1f4424faa36aba95c21efdd8d89bf9", "0xc42531c558ded8fcfecb0b0a4b479d9efb14af67", "0x000000000000000000000000000000000000005"],
+        arguments: [shortName + (1900 + getRandomInt(120)), "0xef151701ff1f4424faa36aba95c21efdd8d89bf9", "0xc42531c558ded8fcfecb0b0a4b479d9efb14af67", "0x000000000000000000000000000000000000005"],
         gasBudget: 100000,
     })
 }
